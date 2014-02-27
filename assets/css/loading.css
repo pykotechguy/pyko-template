@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background-color: #FB861D;
+	
+	}
+
+
+#loadingimg{
+	
+	margin:0 auto;
+	width: 884px;
+	height: 598px;
+	padding-top:0px;
+	margin-top:0px;
+	
+	/*
+    outline: 1px solid #ddd;
+    padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #FFC;
+	*/
+	
+		
+	}
+	
+#loadingimg img{
+	
+	width: 884px;
+	height: 598px;
+	
+	
+	}
+	
+
+
+

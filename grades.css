@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+#studentnum #studentsur #studentfirst{
+
+}
+
+body {background-color: #F4F4F4}
+
+#headerlogo{
+	width: 60px;
+	height: 40px;
+
+	margin:0 auto;
+	
+	padding-left: 10px;
+	padding-top: 5px;
+	
+}
+
+#studentdata .studentnum{
+	float: left;
+	width: 150px;
+	
+	font-size: 25px; 
+	font-weight: lighter; 
+	font-family: 'Segoe UI Light'; 
+	
+	text-align: center;
+	
+
+}
+
+#studentdata .studentgradebar {
+	
+	float: left;
+	width: 200px;
+	font-size: 45px;
+	
+}
+	
+#studentdata .studentsur{
+
+	float: left;
+	width: 160px;
+	text-align: left;
+	
+	font-size: 25px; 
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	font-weight: bold;
+	padding-left: 30px;
+
+}
+
+#studentdata .studentfirst{
+	
+	float: left;
+	width: 220px;
+	
+	font-size: 25px; 
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+}
+
+#studentlist {
+	
+	height: 400px;
+	width: 1000px;
+	float: left;
+}
+
+#leftpanel {
+	
+	height: 550px;
+	width: 200px;
+	float: left;
+	background: #FB861D;	
+}
+
+#grades{
+	
+	background: #F4F4F4;
+	
+}
+
+#classlabel{
+	
+	width: 140px;
+	float: right;
+	padding-top: 5px;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	font-weight: bold;
+	color: #484848;
+}
+
+#classdetail{
+	
+	width: 140px;
+	float: right;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	color: #666;
+}
+
+#workspace {
+
+	width: 1200px;
+	height: 600px;
+	
+	/*outline: 1px solid #ddd;*/
+	
+	margin:0 auto;
+	
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+	
+}
+
+#canvasheader {
+	width: 1200px;
+	height: 50px;
+	
+	/*outline: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	padding: 10px;*/
+	background: #484848;
+	
+	/*box-shadow: 0 0 3px #ddd;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+
+}
+
+#canvasfooter {
+	width: 1200px;
+	height: 30px;
+	
+	/*outline: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	padding: 10px;*/
+	background: #484848;
+	float: left;
+	
+	/*box-shadow: 0 0 3px #ddd;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+
+}
+
+/* #indented ul li {
+    
+	border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+}*/
+
+
+#sexyheader{
+	height: 1px;
+    background: black;
+    background: 	-webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));	
+}
+
+
+#sexyline { 
+    height: 1px;
+    border: 0;
+    background: #333;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #333));
+}
+
+#othermodules .module{
+
+	float: left;
+	height: 55px;
+	width: 190px;
+	padding-left: 10px;
+	
+}
+
+.modulelabel{
+
+	 width: 140px;
+	 float: right;
+	 padding-top: 5px;
+	 font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	font-weight: bold;
+	color:#FFF;
+	/*font-size:12px;*/
+
+}
+
+.modulelabeldetail{
+
+	 width: 140px;
+	 float: right;
+	 font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	 color: #F7C89E;
+	/*font-size:12px;*/
+}
+
+.module:hover{
+
+	background: #FFAD63;
+
+}
+
+.classname{
+	
+	font-family:  Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	color: #F7C89E;
+	color: #FFF;
+	
+	padding-left: 25px;
+	font-size:13px
+	
+}
+
+.sectionlabel{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+	color: #000;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+.workspacelabel{
+	
+	font-family: 'Segoe UI Light';
+	font-size: 25px;
+	padding-left: 20px;
+	float:left;
+	
+}
+
+.slider .ui-slider-range { 
+
+	background: #FB861D; 
+
+}
+
+.slider .ui-slider-handle { 
+
+	background: #484848; 
+	height: 30px;
+	width: 20px;
+	
+	margin-left: -10px;
+	margin-top: 10px;;
+	/*vertical-align:middle;*/
+}
+
+.studentgradebar{
+
+	width: 100px;
+	float: left;
+	height: 30px;
+	vertical-align:middle;
+	/*padding-top:25px;*/
+	position: static;	
+
+}
+
+.sliderdiv{
+	width: 100px;
+	float: left;
+	padding-top:10px;
+	vertical-align:middle;
+	height: 30px;
+	float:right;
+	
+}
+
+.moduleimage{
+	
+	padding-top:2px;
+	width:50px;
+	height:50px;
+	
+	}
+	
+.gradelabel {
+	
+	border: 0; 
+	color: #f6931f; 
+	font-weight: bold; 
+	font-size: 30px; 
+	width: 70px; 
+	float:left; 
+	text-align: center; 
+	background-color: transparent;
+		
+	}
+
+
+.slider{
+	
+	height: 20px; 
+	width: 250px;
+		
+	}
+	
+.gradesave{
+		
+	float: right;
+	padding-top: 10px;
+	width: 60px;
+	display:none;
+	
+	
+	}
+	
+.gradesave img{
+		
+	width: 20;
+	height: 20;
+	
+	}
+	
+#toprightlabel {
+	
+	float: right;
+	width: 170px;
+	height: 20px;
+	padding-right: 20px;
+	padding-top: 15px;	
+	
+}
+
+#sessionname{
+	
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; 
+	color: #CCC;
+	font-size: 16px;
+	float: left;
+	font-weight:bold;
+}
+
+#logoutsign img{
+	
+	width: 30px;
+	height: 20px;
+	float: right;
+}
+
+
+#teacherclass{
+	
+	width: 900px;
+	padding-left: 50px;
+}
+
+
+#classtable{
+	align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: left;
+}
+
+#classtable td{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	padding-left: 10px;	
+	
+}
+
+#classtable th{
+	
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+.tableheader{
+
+	
+	border: solid #CCC;	
+	border-width: 0 1px 5px 0;
+	
+}
+	
+.firstcolumn{
+	
+	/*background-color: #FFFFD0;*/	
+	
+}
+
+#firstrow td{
+
+	font-size:5px;
+	
+}
+
+.row:hover td{
+	
+	background-color: #FFFFD0;
+	color: #252525;
+	
+	
+}
+
+.row .firstcolumn:hover{
+	
+	background-color: #FB861D;
+	color: #FFF;
+	font-weight: bold;
+	
+	
+	
+	} 
+	
+#row .firstcolumn a{
+	
+	display:block;
+    height:100%;
+    width:100%;
+	
+}
